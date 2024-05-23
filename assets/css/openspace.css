@@ -1,0 +1,13 @@
+.mobile-image-container {
+    width: 25%;
+    border: 1px solid grey;
+}
+
+.os-icon-size {
+    width: 20px;
+    height: 20px;
+}
+
+.os-table-row-padding {
+    padding: 25px;
+}

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-    <title>Docs.Openspace.Social - An indepth view of how to use Openspace</title>
+    <title>Docs.Openspace.Social - An indepth guide on how to use Openspace</title>
     
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <meta name="description" content="Bootstrap 4 Template For Software Startups">
+    <meta name="description" content="Openspace Documentation - How to use the Platform">
     <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
     <link rel="shortcut icon" href="favicon.ico"> 
     
@@ -21,6 +21,8 @@
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
     <link rel="stylesheet" href="assets/plugins/simplelightbox/simple-lightbox.min.css">
+	<link rel="stylesheet" href="assets/css/openspace.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
@@ -70,7 +72,7 @@
             </div>
 		    <nav id="docs-nav" class="docs-nav navbar">
 			    <ul class="section-items list-unstyled nav flex-column pb-3">
-				    <li class="nav-item section-title"><a class="nav-link scrollto active" href="#section-1"><span class="theme-icon-holder me-2"><i class="fas fa-map-signs"></i></span>Introduction</a></li>
+				    <li class="nav-item section-title"><a class="nav-link scrollto active" href="#section-1"><span class="theme-icon-holder me-2"><i class="fas fa-map-signs"></i></span>Start Here</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-0">Home Screen</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-1">How to Post</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-2">Communities</a></li>
@@ -86,7 +88,10 @@
 					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-12">Circles</a></li>
 					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-13">Hidden Follower Count</a></li>
 					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-14">Profile Options</a></li>
-					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-15">More on the way!</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-15">Themes</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-16">Settings</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-17">Language Support</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-18">More on the way!</a></li>
 				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-2"><span class="theme-icon-holder me-2"><i class="fas fa-arrow-up"></i></span>Sign-Up Process</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-1">Section Item 2.1</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-2">Section Item 2.2</a></li>
@@ -127,9 +132,10 @@
 		    <div class="container">
 			    <article class="docs-article" id="section-1">
 				    <header class="docs-header">
-					    <h1 class="docs-heading">Introduction <span class="docs-time">Last updated: 2024-05-24</span></h1>
+					    <h1 class="docs-heading">Start Here<span class="docs-time">Last updated: 2024-05-24</span></h1>
 					    <section class="docs-intro">
-						    <p>Openspace.Social was built from the ground up. This means that the community itself has had the biggest impact in shaping the platform and it's set of features. While many of the features are similar to other platforms, you will find that there are some proprietary aspects of Openspace which make it unique.</p>
+							<p>To search anything on this page, use "Control+f" on PC or "Command+f" if you are using a MAC.</p>
+							<p>Openspace.Social was built from the ground up. This means that the community itself has had the biggest impact in shaping the platform and it's set of features. While many of the features are similar to other platforms, you will find that there are some proprietary aspects of Openspace which make it unique.</p>
 						</section><!--//docs-intro-->
 						
 <!--						<h5>Github Code Example:</h5>-->
@@ -165,11 +171,91 @@
 <!--				    </header>-->
 					<section class="docs-section" id="item-1-0">
 						<h2 class="section-heading">Home Screen</h2>
-						<p>Upon logging into Openspace.Social, the Home Screen serves as your main dashboard. If you haven't joined any communities at sign-up, you’ll see an icon indicating there’s nothing to load. This can happen for a few reasons: you haven't followed any accounts, joined any communities, created any communities, or posted anything on the platform. To start engaging, head over to the explore or trending sections to find interesting content or communities. Alternatively, if you know someone on the platform, search for their username and follow them to begin populating your feed.</p>
+						<p>Upon logging into Openspace.Social, the Home Screen serves as your main dashboard. If you haven't joined any communities at sign-up, you’ll see an image indicating there’s nothing to load (as shown below). This can happen for a few reasons: you haven't followed any accounts, joined any communities, created any communities, or posted anything on the platform. </p>
+						<div class="mobile-image-container mx-auto d-block">
+							<img class="img-fluid" src="assets/images/AppImages/Feed-Empty.jpeg">
+						</div><br /><br />
+						<p>To start filling your feed with content you will want to explore these individual aspects:</p><br />
+
+
+						<div class="container">
+						  <div class="row">
+						  	<div class="col border pt-4 pb-4"><i class="material-symbols-outlined">tune</i> - FILTER</div>
+							<div class="col border pt-4 pb-4">Located on the top right hand side of the mobile screen. This allows you control of the algorithm. When you start to follow lots of communities and other members, you can use the filter feature to tailor the content you want to see.</div>
+						  </div>
+						  <div class="row">
+						  	<div class="col border pt-4 pb-4"><i class="fa-solid fa-house"></i> - HOME</div>
+							<div class="col border pt-4 pb-4">Return to the content feed, navigate back to the top of the content feed, or to refresh the content freed.</div>
+						  </div>
+						  <div class="row">
+							<div class="col border pt-4 pb-4"><i class="fa-solid fa-magnifying-glass"></i> - SEARCH</div>
+							<div class="col border pt-4 pb-4">Explore the platform or to see what is trending. You can search for friends by their username, communities based on keywords, or hashtags (#).</div>
+						  </div>
+						  <div class="row">
+							<div class="col border pt-4 pb-4"><span class="material-symbols-outlined">bubble_chart</span> - COMMUNITIES</div>
+							<div class="col border pt-4 pb-4">Explore the vast list of communities that you can join. Conversely, this is where you can also create your own community.</div>
+						  </div>
+						  <div class="row">
+							<div class="col border pt-4 pb-4"><i class="fa-solid fa-bell"></i> - NOTIFICATIONS</div>
+							<div class="col border pt-4 pb-4">View your notifications. This includes reactions to your posts for example; emojis, comments, mentions etc...</div>
+						  </div>
+						  <div class="row">
+							<div class="col border pt-4 pb-4"><img class="os-icon-size" src="assets/images/AppImages/Add-Post-Icon.png" /> - ADD POST</div>
+							<div class="col border pt-4 pb-4">Click this icon to add/share a post to your followers or a specific community.</div>
+						  </div>
+						</div>
+
+
 					</section><!--//section-->
 				    <section class="docs-section" id="item-1-1">
 						<h2 class="section-heading">How to Post</h2>
-						<p>At the moment, Openspace.Social supports both short and long form posts</p>
+						<p>As mentioned above, click on the "+" icon to start a post. Openspace.Social supports up to 5000 characters (approximately 750 to 1250 words). We are working on expanding this to 7500 characters with support for embedded images. File upload size is capped at 75Mb. Watch the video below or read the instructions to the right of the video to start sharing your content.</p>
+
+						<div class="row">
+							<div class="col border pt-4 pb-4"><iframe width="420" height="515" src="https://youtube.com/embed/jQ8VB5azH1c"></iframe></div>
+							<div class="col border pt-4 pb-4">The video to the left displays the steps required to create a post using the mobile application:
+								<ol>
+									<li>Click the "+" icon on the bottom right of the screen</li>
+									<li>Type your message that you want to share.</li>
+									<li>The next screen shows you sharable options. </li>
+									<ul>
+										<li><strong>World</strong> makes your post available to everyone under your privacy level. Public profiles allow everyone to view the post on your profile, while private profiles only allow your followers to view the content you're sharing. More on ths under <strong>Profile Options.</strong></li>
+										<li><strong>Connections</strong> makes your post available only to those that you are connected with. Although this might sound like your followers, a connect is different than a follower. More on this under <strong>Profile Options.</strong></li>
+										<li><strong>Circles</strong> makes your post available only to those that you have placed within a circle. This differs from a <strong>Connection</strong> in that it allows you to segregate followers without needing to be connected.</li>
+										<li><strong>Community</strong>makes your post available only to those that are within a given community. Public communities can be browsed by accounts outside of the community, but only community members can post to a specific community.</li>
+									</ul>
+									<li>Finally, you can click the <strong>Share</strong> button on the top left of the screen to share it on the platform.</li>
+								</ol>
+							</div>
+						</div>
+						<div class="container">
+							<div class="row">
+							  <div class="col border pt-4 pb-4"><iframe width="420" height="515" src="https://youtube.com/embed/F6l6qoYM9e4"></iframe></div>
+							  <div class="col border pt-4 pb-4">The video to the left displays the steps required to create a post using the web application:
+								<ol>
+								  <li>Click the "+" icon on the bottom right of the screen</li>
+								  <li>Type your message that you want to share.</li>
+								  <li>The next screen shows you sharable options. </li>
+								  	<ul>
+										<li><strong>World</strong> makes your post available to everyone under your privacy level. Public profiles allow everyone to view the post on your profile, while private profiles only allow your followers to view the content you're sharing. More on ths under <strong>Profile Options.</strong></li>
+										<li><strong>Connections</strong> makes your post available only to those that you are connected with. Although this might sound like your followers, a connect is different than a follower. More on this under <strong>Profile Options.</strong></li>
+										<li><strong>Circles</strong> makes your post available only to those that you have placed within a circle. This differs from a <strong>Connection</strong> in that it allows you to segregate followers without needing to be connected.</li>
+										<li><strong>Community</strong>makes your post available only to those that are within a given community. Public communities can be browsed by accounts outside of the community, but only community members can post to a specific community.</li>
+									</ul>
+								  <li>Finally, you can click the <strong>Share</strong> button on the top left of the screen to share it on the platform.</li>
+							  </ol>
+							</div>
+						  </div>
+						</div>
+
+
+
+
+
+
+
+
+
 						<p>Code Example: <code>npm install &lt;package&gt;</code></p>
 						<h5>Unordered List Examples:</h5>
 						<ul>
@@ -495,10 +581,22 @@
 						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
 					</section><!--//section-->
 					<section class="docs-section" id="item-1-15">
+						<h2 class="section-heading">Themes</h2>
+						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+					</section><!--//section-->
+					<section class="docs-section" id="item-1-16">
+						<h2 class="section-heading">Settings</h2>
+						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+					</section><!--//section-->
+					<section class="docs-section" id="item-1-17">
+						<h2 class="section-heading">Languages</h2>
+						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+					</section><!--//section-->
+					<section class="docs-section" id="item-1-18">
 						<h2 class="section-heading">More on the way!</h2>
 						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
 					</section><!--//section-->
-					
+
 			    </article>
 			    
 			    <article class="docs-article" id="section-2">
